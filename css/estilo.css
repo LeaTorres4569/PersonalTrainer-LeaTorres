@@ -96,8 +96,24 @@ nav ul li:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
+/*ANIMACION*/
+.animacion {
+    animation-name: texto;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/*GRADIENTES*/
 
+.bioCostado form {
 
+        background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    padding: 50px 50px 50px 50px;
+        border: #15159f;
+        color: white;
+        border-radius: 90px;
+    
+    }
 
 .bioCostado iframe{
     margin: 70px;
