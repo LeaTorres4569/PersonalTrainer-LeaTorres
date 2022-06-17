@@ -6,37 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lea Torres - Personal trainer</title>
+    <link rel="stylesheet" href="../proyecto fff/bootstrap local/bs/bootstrap/css/bootstrap.css">
     <link rel="shortcut icon" href="./fotosproyecto/icono.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/estilo.css">
 
-
 </head>
 <body>
-    <div class=".contenedor">
-    <header class="cabeza">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+    <header>
         <div class="headerLogo">
             <a href="./index.html"><img src="./fotosproyecto/logo10.png" alt=""></a>
         </div>
     
         <h1 class="centrar"> LEA TORRES - PERSONAL TRAINER</h1>
-   
-    <nav class="cuello">
+    </div>
+</div>
+    <nav class="row">
         <ul>
-            <li><a href="./index.html">INICIO</a></li>
-            <li><a href="./paginas/contacto.html">CONTACTO</a> </li>
-            <li><a href="./paginas/plantresmeses.html">PLAN TRES MESES</a> </li>
-            <li><a href="./paginas/planseiesmeses.html">PLAN SEIS MESES</a> </li>
-            <li><a href="./paginas/sobremi.html">SOBRE MÍ</a></li>
+            <li class="col-sm-12"><a href="./index.html">INICIO</a></li>
+            <li class="col-sm-12"><a href="./paginas/contacto.html">CONTACTO</a> </li>
+            <li class="col-sm-12"><a href="./paginas/plantresmeses.html">PLAN TRES MESES</a> </li>
+            <li class="col-sm-12"><a href="./paginas/planseiesmeses.html">PLAN SEIS MESES</a> </li>
+            <li class="col-sm-12"><a href="./paginas/sobremi.html">SOBRE MÍ</a></li>
 
         </ul>
     </nav>
 </header>
-    <main class="brazo">
-        <section class="bioCostado" > <video autoplay muted src="./fotosproyecto/videoproyecto.mp4" width="50%"></video>
+    <main class="row">
+
+      <div class="col-sm-6">  <section class="bioCostado" > <video autoplay muted src="./fotosproyecto/videoproyecto.mp4" width=""></video> </div>
     
     
-       
-              <p> Los planes de entrenamiento y alimentación de LT tienen como misión
+       <div class="col-sm-6">
+              <p class="bioCostado"> Los planes de entrenamiento y alimentación de LT tienen como misión
                 lograr, en un corto plazo, resultados estéticos y saludables a través de un seguimiento personalizado
                 basado en planes de entrenamiento y alimentacion. <br>
                  Los planes – disponibles tanto para hombres
@@ -44,17 +48,19 @@
                 una duración de 3 y 6 meses.</p>
             </section>
 
-            
-       
+        </div>
 
     </main>
 
     
-    <footer class="pie">
+    <footer class="row"><div class="col-sm-12">
         <hr>
         <p> Lea Torres- Planes personalizados 2022 </p>
     </footer>
-</div>
+</div> </div>
+
+<!---javascript de BOOTSTRAP LOCAL-->
+<script src="./bootstrap local/bs/bootstrap/js/bootstrap.js"></script>
 </body>
 
 
