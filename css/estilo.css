@@ -68,11 +68,13 @@ header nav ul{
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    
 }
-header nav ul li a {
+ .container-fluid  header nav ul li a {
 text-decoration: none;
 font-family: 'Courier New', Courier, monospace;
-color: white;}
+color: white;
+}
 
 nav ul li:hover {
     background: pink
@@ -101,22 +103,17 @@ nav ul li:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
-/*ANIMACION*/
-.animacion {
-    animation-name: texto;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
+
 /*GRADIENTES*/
 
 .bioCostado form {
         background-color: #0cbaba;
     background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-    padding: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 80px;
         border: #15159f;
         color: white;
-        border-radius: 90px;
-    margin: 70px;
+        border-radius: 50px;
+    margin: 90px;
     display: flex;
     justify-content: center;
     }
@@ -189,4 +186,20 @@ p del{
 .bg-black{
     background-color: black;
     color: white;
+}
+
+/*ANIMACION*/
+.texto-animado {
+    animation-name: texto;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes texto {
+    from /*inicio*/ {
+        transform: translateX(700px);
+    }
+    to /* fin */ {
+        transform: translate(0);
+
+    }
 }
