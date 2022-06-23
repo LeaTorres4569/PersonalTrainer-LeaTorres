@@ -104,16 +104,15 @@ nav ul li:hover {
 
 /*GRADIENTES*/
 
-.bioCostado form {
+ .col-sms-6 .bioCostado form {
         background-color: #0cbaba;
     background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
     padding: 50px 50px 50px 80px;
         border: #15159f;
         color: white;
-        border-radius: 50px;
+        border-radius: 90px;
     margin: 90px;
-    display: flex;
-    justify-content: center;
+   
     }
 
 .bioCostado iframe{
