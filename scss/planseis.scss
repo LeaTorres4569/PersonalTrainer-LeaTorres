@@ -1,0 +1,46 @@
+.planTres {
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px 30px 20px;
+    text-align: center;
+    font-weight: lighter;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    
+    img { 
+       
+        padding: 5px 30px 60px 50px;    
+        border-radius: 50px;
+        transform: rotate(35deg);
+        
+        }
+}
+/*MIXIN*/
+@mixin anchoimg ($ancho){
+    width: $ancho;
+    
+}
+.col-sm-6 {
+    img {
+        @include anchoimg(50%);
+    }
+}
+/*EXTENDS*/
+ 
+    p {
+    
+    justify-content: center;
+    padding: 30px 180px 50px 35px;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 100px;
+    font-weight: lighter;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+
