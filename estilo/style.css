@@ -8354,4 +8354,92 @@ p {
   color: white;
 }
 
+footer {
+  background-color: #040403;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.sobreMi {
+  display: flex;
+  margin-left: 10px;
+  padding-bottom: 35px;
+}
+.sobreMi p {
+  display: flex;
+  justify-content: center;
+  padding: 0px 30px 20px 10px;
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.bioCostado {
+  margin-left: 20px;
+  padding-bottom: 25px;
+}
+.bioCostado video {
+  margin: 20px;
+}
+.bioCostado p {
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: lighter;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+.bioCostado form {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  padding: 50px 50px 50px 80px;
+  border: #15159f;
+  color: black;
+}
+.bioCostado iframe {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  padding: 50px 50px 50px 80px;
+  border: #15159f;
+  color: black;
+}
+
+h2 .texto-animado, .h2 .texto-animado {
+  animation-name: texto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes texto {
+  from {
+    transform: translateX(700px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 320px 320px 320px 320px;
+  grid-template-rows: 40px;
+  grid-column-gap: 17px;
+  border-radius: 20px;
+}
+
+.gridItem {
+  background-color: pink;
+  border-radius: 2px rgb(4, 3, 3);
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

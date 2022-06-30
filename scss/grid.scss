@@ -1,0 +1,16 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: 40px;
+    grid-column-gap: 17px;
+    border-radius: 20px;
+}
+.gridItem {
+    background-color: pink;
+    border-radius: 2px rgb(4, 3, 3);
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    
+
+}
