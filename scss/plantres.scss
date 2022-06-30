@@ -1,18 +1,12 @@
 .planTres {
-    
+    p {
+    margin: 0%;
     display: flex;
     justify-content: center;
-    padding: 20px 30px 30px 20px;
     text-align: center;
     font-weight: lighter;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    
-    img{
-        padding: 5px 30px 60px 50px;    
-        border-radius: 50px;
-        transform: rotate(35deg);
-        
-        }
+    }
 }
