@@ -4,4 +4,7 @@ $headings: (
     h2:1.2rem,
     h3:0.5rem,
 );
-$h1: map-get($map:headings, $key:h1 )
+
+h1{
+    font-size:map-get($headings , h1 );
+}

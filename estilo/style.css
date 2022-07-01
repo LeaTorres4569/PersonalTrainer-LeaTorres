@@ -8424,4 +8424,8 @@ form {
   text-align: center;
 }
 
+h1, .h1 {
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
