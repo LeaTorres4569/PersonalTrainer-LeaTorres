@@ -8377,7 +8377,6 @@ p {
 .bioCostado form {
   background-color: #0cbaba;
   background-image: linear-gradient(315deg, #0cbaba 0%, #814b7f 74%);
-  padding: 50px 50px 50px 80px;
   border: #15159f;
   color: white;
 }
@@ -8389,7 +8388,6 @@ p {
 form {
   background-color: #0cbaba;
   background-image: linear-gradient(315deg, #0cbaba 0%, #4a3249 74%);
-  padding: 50px 50px 50px 80px;
   border: #15159f;
   color: white;
 }
