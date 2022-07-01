@@ -1,15 +1,20 @@
-.sobreMi {
+
+//mixin
+
+@mixin sobreMi {
     display: flex;
-    margin-left: 10px;
+  
     padding-bottom: 35px;
 
-     p {display: flex;
+        display: flex;
         justify-content: center;
-        padding: 0px 30px 20px 50px;
+       
         font-size: 1.5rem;
         text-align: justify;
-        margin: 20px 30px 20px 110px;
+       
         font-weight: lighter;
-}
-}
 
+}
+p {
+    @include sobreMi
+}

@@ -2,7 +2,6 @@
     
     display: flex;
     justify-content: center;
-    padding: 5px 10px 30px 5px;
     text-align: center;
     font-weight: lighter;
     text-align: justify;
@@ -17,23 +16,14 @@
         
         }
 }
-/*MIXIN*/
-@mixin anchoimg ($ancho){
-    width: $ancho;
-    
-}
-.col-sm-6 {
-    img {
-        @include anchoimg(50%);
-    }
-}
+
 /*EXTENDS*/
  
     p {
     
     justify-content: center;
     padding: 10px 10px 50px 5px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: justify;
     margin-top: 0%;
     font-weight: lighter;

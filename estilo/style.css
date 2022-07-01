@@ -8301,13 +8301,23 @@ textarea.form-control-lg {
 body {
   color: white;
   font-family: swap;
-  background-color: #0b0707;
+  background-color: black;
+}
+
+.planTres p {
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
 }
 
 .planTres {
   display: flex;
   justify-content: center;
-  padding: 20px 30px 30px 20px;
   text-align: center;
   font-weight: lighter;
   text-align: justify;
@@ -8315,39 +8325,18 @@ body {
   color: white;
 }
 .planTres img {
-  padding: 5px 30px 60px 50px;
+  padding: 5px 30px 60px 5px;
   border-radius: 50px;
   transform: rotate(35deg);
-}
-
-.planTres {
-  display: flex;
-  justify-content: center;
-  padding: 20px 30px 30px 20px;
-  text-align: center;
-  font-weight: lighter;
-  text-align: justify;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-}
-.planTres img {
-  padding: 5px 30px 60px 50px;
-  border-radius: 50px;
-  transform: rotate(35deg);
-}
-
-/*MIXIN*/
-.col-sm-6 img {
-  width: 50%;
 }
 
 /*EXTENDS*/
 p {
   justify-content: center;
-  padding: 30px 180px 50px 35px;
-  font-size: 1.5rem;
+  padding: 10px 10px 50px 5px;
+  font-size: 1rem;
   text-align: justify;
-  margin-top: 100px;
+  margin-top: 0%;
   font-weight: lighter;
   text-align: justify;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -8362,15 +8351,11 @@ footer {
   color: white;
 }
 
-.sobreMi {
+p {
   display: flex;
-  margin-left: 10px;
   padding-bottom: 35px;
-}
-.sobreMi p {
   display: flex;
   justify-content: center;
-  padding: 0px 30px 20px 10px;
   font-size: 1.5rem;
   text-align: justify;
   font-weight: lighter;
@@ -8380,12 +8365,9 @@ footer {
   margin-left: 20px;
   padding-bottom: 25px;
 }
-.bioCostado video {
-  margin: 20px;
-}
 .bioCostado p {
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: justify;
   font-weight: lighter;
   text-align: justify;
@@ -8394,10 +8376,10 @@ footer {
 }
 .bioCostado form {
   background-color: #0cbaba;
-  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  background-image: linear-gradient(315deg, #0cbaba 0%, #814b7f 74%);
   padding: 50px 50px 50px 80px;
   border: #15159f;
-  color: black;
+  color: white;
 }
 .bioCostado iframe {
   display: flex;
@@ -8406,13 +8388,13 @@ footer {
 
 form {
   background-color: #0cbaba;
-  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  background-image: linear-gradient(315deg, #0cbaba 0%, #4a3249 74%);
   padding: 50px 50px 50px 80px;
   border: #15159f;
-  color: black;
+  color: white;
 }
 
-h2 .texto-animado, .h2 .texto-animado {
+.texto-animado {
   animation-name: texto;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -8429,8 +8411,8 @@ h2 .texto-animado, .h2 .texto-animado {
 .gridContainer {
   display: grid;
   grid-template-columns: 320px 320px 320px 320px;
-  grid-template-rows: 40px;
-  grid-column-gap: 17px;
+  grid-template-rows: 20px;
+  grid-column-gap: 40px;
   border-radius: 20px;
 }
 
