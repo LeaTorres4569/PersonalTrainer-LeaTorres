@@ -1,15 +1,16 @@
+ 
 
     .texto-animado {
         animation-name: texto;
         animation-duration: 4s;
         animation-iteration-count: infinite;
-    
+        overflow: hidden;
   
 }
 
 @keyframes texto {
     from /*inicio*/ {
-        transform: translateX(700px);
+        transform: translateX(50px);
     }
     to /* fin */ {
         transform: translate(0);
