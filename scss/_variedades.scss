@@ -1,5 +1,5 @@
  
-
+h2 {
     .texto-animado {
         animation-name: texto;
         animation-duration: 4s;
@@ -10,10 +10,11 @@
 
 @keyframes texto {
     from /*inicio*/ {
-        transform: translateX(50px);
+        transform: translateX(150px);
     }
     to /* fin */ {
         transform: translate(0);
 
     }
+}
 }
