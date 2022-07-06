@@ -4,7 +4,7 @@ h2 {
         animation-name: texto;
         animation-duration: 4s;
         animation-iteration-count: infinite;
-        overflow: hidden;
+        
   
 }
 
@@ -17,4 +17,7 @@ h2 {
 
     }
 }
+}
+.animacion {
+    overflow: hidden;
 }
