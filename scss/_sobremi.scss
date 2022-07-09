@@ -4,15 +4,18 @@
 @mixin sobreMi {
   
     padding-bottom: 35px;
-        font-size: 1.5rem;
+        font-size: 1.rem;
         text-align: justify;
-       
         font-weight: lighter;
 
 }
+
 p {
-    @include sobreMi {
-        display: flex;
-        justify-content: center;
+
+    @include sobreMi;
+    
+    display: flex;
+    
+    justify-content: center;
+    
     }
-}
