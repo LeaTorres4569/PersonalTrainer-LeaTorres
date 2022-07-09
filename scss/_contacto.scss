@@ -35,7 +35,7 @@
              
              form {
                  
-             background-image:url(../fotosproyecto/foto1proyecto.jpg);
+             background-image:url(../fotosproyecto/fondo\ gym.webp);
                  border: #15159f;
                  color:white;
                  margin: 25px;
@@ -44,3 +44,27 @@
              } }
         
     }
+    .animacion {
+        overflow: hidden;
+    }
+     
+    h2 {
+        .texto-animado {
+            animation-name: texto;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        
+      
+    }
+    
+    @keyframes texto {
+        from /*inicio*/ {
+            transform: translateX(180px);
+        }
+        to /* fin */ {
+            transform: translate(0);
+    
+        }
+    }
+    }
+    
