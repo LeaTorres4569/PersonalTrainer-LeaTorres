@@ -1,13 +1,13 @@
 
-h2 {
-    .texto-animado {
+
+ .texto-animado {
         animation-name: texto;
         animation-duration: 4s;
         animation-iteration-count: infinite;
     
   
 }
-}
+
 @keyframes texto {
     from /*inicio*/ {
         transform: translateX(180px);

@@ -8364,7 +8364,7 @@ p {
   color: white;
 }
 
-h2 .texto-animado, .h2 .texto-animado {
+.texto-animado {
   animation-name: texto;
   animation-duration: 4s;
   animation-iteration-count: infinite;
