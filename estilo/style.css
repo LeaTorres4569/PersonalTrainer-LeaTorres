@@ -8364,6 +8364,10 @@ p {
   color: white;
 }
 
+.animacion {
+  overflow: hidden;
+}
+
 .texto-animado {
   animation-name: texto;
   animation-duration: 4s;
