@@ -8364,6 +8364,20 @@ p {
   color: white;
 }
 
+h2 .texto-animado, .h2 .texto-animado {
+  animation-name: texto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes texto {
+  from {
+    transform: translateX(180px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
 .gridContainer {
   height: 20px;
   display: grid;
@@ -8384,51 +8398,17 @@ p {
 .bioCostados iframe {
   display: flex;
   text-align: start;
-  width: 190px;
-  height: 200px;
+  width: 390px;
+  height: 480px;
   padding-right: 90px;
 }
 .bioCostados form {
   background-color: #0cbaba;
-  background-image: black;
+  background-image: url(../fotosproyecto/foto1proyecto.jpg);
   border: #15159f;
   color: white;
   margin: 25px;
   padding: 25px;
-}
-
-@media screen and (max-width: 768px) {
-  .bioCostados iframe {
-    display: flex;
-    text-align: start;
-    width: 45%;
-    height: 45%;
-    padding-right: 90px;
-  }
-  .bioCostados form {
-    background-image: url(../fotosproyecto/fondo\ gym.webp);
-    border: #15159f;
-    color: white;
-    margin: 25px;
-    padding: 25px;
-  }
-}
-.animacion {
-  overflow: hidden;
-}
-
-h2 .texto-animado, .h2 .texto-animado {
-  animation-name: texto;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-@keyframes texto {
-  from {
-    transform: translateX(150px);
-  }
-  to {
-    transform: translate(0);
-  }
 }
 
 h1, .h1 {
