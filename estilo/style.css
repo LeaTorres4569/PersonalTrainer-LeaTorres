@@ -8407,12 +8407,12 @@ p {
   padding-right: 90px;
 }
 .bioCostados form {
-  background-color: #0cbaba;
   background-image: url(../fotosproyecto/foto1proyecto.jpg);
   border: #15159f;
   color: white;
-  margin: 25px;
-  padding: 25px;
+  margin: 35px;
+  padding-top: 25px;
+  background-color: pink;
 }
 
 h1, .h1 {
