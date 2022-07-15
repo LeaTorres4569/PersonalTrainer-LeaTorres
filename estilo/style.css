@@ -8399,20 +8399,23 @@ p {
   text-align: center;
 }
 
+.bioCostados {
+  overflow: hidden;
+}
 .bioCostados iframe {
   display: flex;
   text-align: start;
-  width: 390px;
+  width: 430px;
   height: 480px;
   padding-right: 90px;
+  padding-bottom: 25px;
 }
-.bioCostados form {
-  background-color: #0cbaba;
-  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-  margin: 35px;
+
+form {
+  background-image: url(../fotosproyecto/fondo\ gym.webp);
   padding-top: 25px;
-  width: 390px;
-  height: 480px;
+  width: 350px;
+  height: 455px;
 }
 
 h1, .h1 {
